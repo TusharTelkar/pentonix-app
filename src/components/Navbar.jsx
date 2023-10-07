@@ -9,6 +9,7 @@ export const Navbar = ({ onSearchInputChange}) => {
           <div className="profile-icon">
             <FaUser />
           </div>
+          
           </div>
           <div className="search-bar">
             <input type="text" placeholder="Search" onChange={onSearchInputChange}/>
